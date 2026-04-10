@@ -2,13 +2,36 @@
 
 Metodologia original para produção científica com integridade estrutural em tempos de IA generativa.
 
-O SIAC opera com dois papéis (Operador humano e Executor) em cinco fases conectadas por gates obrigatórios:
+O SIAC opera com dois papéis (Operador humano e Executor) em cinco fases conectadas por gates obrigatórios. Em vez de prescrever princípios éticos, estrutura um processo no qual rastreabilidade, adversarialidade e declaração de lacunas emergem como propriedades do fluxo de trabalho.
 
-```
-F0 Descoberta → [Gate] → F1 Planejamento → [Gate] → loop{F2 Crítica / F3 Revisão} → [Gate] → F4 Execução
+```mermaid
+flowchart LR
+    F0["F0\nDescoberta\n(10 perguntas)"]
+    G1{Gate\nEntendimento}
+    F1["F1\nPlanejamento\n(venue, escopo, entregável)"]
+    G2{Gate\nPlano}
+    F2["F2\nCrítica Adversarial\n(dimensões por categoria)"]
+    F3["F3\nRevisão\n(disposição de achados)"]
+    G3{Gate\nExecução}
+    F4["F4\nExecução\n(+ SIAC-log)"]
+
+    F0 --> G1 --> F1 --> G2 --> F2
+    F2 --> F3
+    F3 -->|bloqueantes\npendentes| F2
+    F3 -->|convergiu| G3
+    G3 --> F4
+
+    style F0 fill:#4a90d9,color:#fff
+    style F1 fill:#4a90d9,color:#fff
+    style F2 fill:#c0392b,color:#fff
+    style F3 fill:#e67e22,color:#fff
+    style F4 fill:#27ae60,color:#fff
+    style G1 fill:#f0f0f0,color:#333
+    style G2 fill:#f0f0f0,color:#333
+    style G3 fill:#f0f0f0,color:#333
 ```
 
-Em vez de prescrever princípios éticos, o SIAC estrutura um processo no qual rastreabilidade, adversarialidade e declaração de lacunas emergem como propriedades do fluxo de trabalho.
+**Papéis:** O **Operador** (pesquisador) detém agência sobre decisões. O **Executor** (colega, LLM ou o próprio pesquisador) conduz o processo e produz crítica. Os gates exigem aprovação explícita do Operador.
 
 ## Arquivos
 
