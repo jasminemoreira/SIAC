@@ -36,7 +36,7 @@ flowchart TD
 ## Arquivos
 
 - **[SIAC.md](SIAC.md)** --- Especificação operacional completa da metodologia. Pode ser usada diretamente como prompt de sistema para um LLM ou como guia para execução manual.
-- **[artigo3_vibe_writing_integridade_ia.pdf](artigo3_vibe_writing_integridade_ia.pdf)** --- Artigo que fundamenta o SIAC: diagnóstico de *vibe writing*, crítica epistemológica a diretrizes normativas e descrição metodológica com meta-exemplo iterativo.
+- **[artigo3_vibe_writing_integridade_ia.pdf](artigo3_vibe_writing_integridade_ia.pdf)** --- Artigo que fundamenta a SIAC: diagnóstico de *vibe writing*, crítica epistemológica a diretrizes normativas e descrição metodológica com meta-exemplo iterativo.
 
 ## Como usar
 
