@@ -23,7 +23,7 @@ Em vez de prescrever princípios éticos, o SIAC estrutura um processo no qual r
 
 ## Autora
 
-Jasmine Moreira --- Especialista em Sistemas Cognitivos (INDT, Manaus); Doutoranda em Engenharia de Software (CPGEI/UTFPR).
+Jasmine Moreira --- Doutora em Educação (UFPR); Doutoranda em Engenharia de Software (CPGEI/UTFPR); Especialista em Sistemas Cognitivos (INDT, Manaus).
 
 ## Licenca
 
