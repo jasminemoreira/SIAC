@@ -5,7 +5,7 @@ Metodologia original para produção científica com integridade estrutural em t
 O SIAC opera com dois papéis (Operador humano e Executor) em cinco fases conectadas por gates obrigatórios. Em vez de prescrever princípios éticos, estrutura um processo no qual rastreabilidade, adversarialidade e declaração de lacunas emergem como propriedades do fluxo de trabalho.
 
 ```mermaid
-flowchart LR
+flowchart TD
     F0["F0\nDescoberta\n(10 perguntas)"]
     G1{Gate\nEntendimento}
     F1["F1\nPlanejamento\n(venue, escopo, entregável)"]
