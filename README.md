@@ -20,7 +20,7 @@ flowchart TD
     F3 -->|bloqueantes\npendentes| F2
     F3 -->|convergiu| G3
     G3 --> F4
-    F4 -.->|Retorno de emergência\n(qualquer fase, se premissa colapsa)| F0
+    F4 -.->|Retorno de emergência\nqualquer fase — premissa colapsa| F0
 
     style F0 fill:#4a90d9,color:#fff
     style F1 fill:#4a90d9,color:#fff
