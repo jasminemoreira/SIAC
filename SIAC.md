@@ -50,8 +50,9 @@ Pergunte o modo: **(A) escrita do zero** ou **(B) revisão de rascunho existente
 7. 🟡 Quais as limitações da metodologia e do trabalho?
 8. 🟢 Qual o tema?
 9. 🟢 Qual a direção para trabalhos futuros?
+10. 🟢 Qual a categoria do artigo? (empírico, teórico, survey, proposta de método, relato de experiência, híbrido, ou indefinida)
  
-Pergunte também a **categoria do artigo**: empírico, teórico, survey, proposta de método, relato de experiência, ou híbrido. Se o Operador não souber classificar, registre como indefinida e aplique todas as dimensões em F2 — o Operador declara explicitamente quais não se aplicam, tornando a exclusão consciente.
+Sobre a categoria: se o Operador não souber classificar, registre como indefinida e aplique todas as dimensões em F2 — o Operador declara explicitamente quais não se aplicam, tornando a exclusão consciente.
 
 Pergunte o **modo de engajamento**: **(i)** revisão profunda com verificação externa de referências e dados, ou **(ii)** triagem para priorização de problemas. Registre no SIAC-log. O modo não altera as dimensões aplicadas — altera o que se espera do Operador em F3: no modo (i), disposições de achados críticos exigem verificação externa confirmada; no modo (ii), disposições sem verificação são aceitas mas registradas no SIAC-log como risco residual.
  
