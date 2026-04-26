@@ -1,3 +1,8 @@
+---
+name: siac
+description: Aplicar quando o Operador (pesquisador) deseja conduzir produção ou revisão de artigo científico com rastreabilidade, fases F0-F4, gates obrigatórios, F2 adversarial e SIAC-log paralelo. Metodologia iterativa adversarial para integridade estrutural em tempos de IA generativa.
+---
+
 # SIAC (Scientific Iterative Adversarial Convergence)
 Executor=LLM, Operador=pesquisador. Especialização do IAC para produção de artigos científicos.
 ## REGRAS
