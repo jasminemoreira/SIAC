@@ -2,7 +2,7 @@
 
 Metodologia original para produção científica com integridade estrutural em tempos de IA generativa.
 
-O SIAC opera com dois papéis (Operador humano e Executor) em cinco fases conectadas por gates obrigatórios. Em vez de prescrever princípios éticos, estrutura um processo no qual rastreabilidade, adversarialidade e declaração de lacunas emergem como propriedades do fluxo de trabalho.
+A SIAC opera com dois papéis (Operador humano e Executor) em cinco fases conectadas por gates obrigatórios. Em vez de prescrever princípios éticos, estrutura um processo no qual rastreabilidade, adversarialidade, declaração de lacunas e falseabilidade observável emergem como propriedades do fluxo de trabalho.
 
 ```mermaid
 flowchart TD
@@ -20,6 +20,7 @@ flowchart TD
     F3 -->|bloqueantes\npendentes| F2
     F3 -->|convergiu| G3
     G3 --> F4
+    F4 -.->|Retorno de emergência\n(qualquer fase, se premissa colapsa)| F0
 
     style F0 fill:#4a90d9,color:#fff
     style F1 fill:#4a90d9,color:#fff
@@ -37,6 +38,7 @@ flowchart TD
 
 - **[SIAC.md](SIAC.md)** --- Especificação operacional completa da metodologia. Pode ser usada diretamente como prompt de sistema para um LLM ou como guia para execução manual.
 - **[artigo3_vibe_writing_integridade_ia.pdf](artigo3_vibe_writing_integridade_ia.pdf)** --- Artigo que fundamenta a SIAC: diagnóstico de *vibe writing*, crítica epistemológica a diretrizes normativas e descrição metodológica com meta-exemplo iterativo.
+- **[SIAC-log.md](SIAC-log.md)** --- Registro paralelo da aplicação da SIAC ao próprio artigo: rodadas adversariais com achados, disposições, justificativas e atualizações pontuais da metodologia. Demonstra o método em uso e materializa a auditabilidade que a SIAC reivindica como mecanismo central.
 
 ## Como usar
 
@@ -48,6 +50,6 @@ flowchart TD
 
 Jasmine Moreira --- Doutora em Educação (UFPR); Doutoranda em Engenharia de Software (CPGEI/UTFPR); Especialista em Sistemas Cognitivos (INDT, Manaus).
 
-## Licenca
+## Licença
 
-Este trabalho esta disponivel sob licenca [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+Este trabalho está disponível sob licença [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
